@@ -15,8 +15,8 @@ database:
 
 ingress:
   required: true
-  site: test
-  path: /
+  site: ui
+  path: /api/hello
 
 image:
   name: edp-springboot-helloworld
