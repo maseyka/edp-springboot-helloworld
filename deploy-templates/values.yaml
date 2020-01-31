@@ -15,7 +15,7 @@ database:
 
 ingress:
   required: true
-  site: ui
+  site: test
   path: /api/hello
 
 image:
