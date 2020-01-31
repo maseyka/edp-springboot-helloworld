@@ -11,7 +11,7 @@ public class HelloEdpController {
 
     @GetMapping(value = "/api/hello")
     public String hello() {
-        return "Hello, Demo!";
+        return "Hello, EDP!";
     }
 
 }
