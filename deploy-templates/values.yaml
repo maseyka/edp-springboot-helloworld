@@ -4,12 +4,19 @@ cdPipelineName: ""
 cdPipelineStageName: ""
 dnsWildcard: eks-delivery.aws.main.edp.projects.epam.com
 
+
 database:
-  required: false
+  required: true
+  version: postgres:9.6
+  storageClass: gp2
+  capacity: 5Gi
+
 
 
 ingress:
-  required: false
+  required: true
+  site: test
+  path: /
 
 image:
   name: edp-springboot-helloworld
