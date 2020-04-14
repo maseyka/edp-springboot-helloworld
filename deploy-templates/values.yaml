@@ -9,14 +9,14 @@ database:
   required: true
   version: postgres:9.6
   storageClass: gp2
-  capacity: 5Gi
+  capacity: 1Gi
 
 
 
 ingress:
   required: true
   site: test
-  path: /api/hello
+  path: /
 
 image:
   name: edp-springboot-helloworld
